@@ -21,6 +21,7 @@
 | [0011-container-with-most-water](https://github.com/ambi-02/leetcode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ambi-02/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0283-move-zeroes](https://github.com/ambi-02/leetcode/tree/master/0283-move-zeroes) |
+| [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 | [1019-squares-of-a-sorted-array](https://github.com/ambi-02/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 ## Greedy
 |  |
@@ -36,6 +37,7 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
+| [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 ## Binary Search
 |  |
 | ------- |
@@ -65,4 +67,8 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ambi-02/leetcode/tree/master/0169-majority-element) |
+## String
+|  |
+| ------- |
+| [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 <!---LeetCode Topics End-->
