@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/ambi-02/leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/ambi-02/leetcode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ambi-02/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
 | [0136-single-number](https://github.com/ambi-02/leetcode/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/ambi-02/leetcode/tree/master/0152-maximum-product-subarray) |
@@ -20,6 +21,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/ambi-02/leetcode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ambi-02/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
 | [0283-move-zeroes](https://github.com/ambi-02/leetcode/tree/master/0283-move-zeroes) |
 | [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 | [1019-squares-of-a-sorted-array](https://github.com/ambi-02/leetcode/tree/master/1019-squares-of-a-sorted-array) |
@@ -61,6 +63,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/ambi-02/leetcode/tree/master/0152-maximum-product-subarray) |
 ## Counting
@@ -71,4 +74,12 @@
 |  |
 | ------- |
 | [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
