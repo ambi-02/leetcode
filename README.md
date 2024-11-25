@@ -10,6 +10,7 @@
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
 | [0136-single-number](https://github.com/ambi-02/leetcode/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/ambi-02/leetcode/tree/master/0152-maximum-product-subarray) |
+| [0169-majority-element](https://github.com/ambi-02/leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ambi-02/leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ambi-02/leetcode/tree/master/0485-max-consecutive-ones) |
@@ -29,6 +30,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ambi-02/leetcode/tree/master/0001-two-sum) |
+| [0169-majority-element](https://github.com/ambi-02/leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 ## Math
 |  |
@@ -46,15 +48,21 @@
 ## Sorting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ambi-02/leetcode/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 | [1019-squares-of-a-sorted-array](https://github.com/ambi-02/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/ambi-02/leetcode/tree/master/0169-majority-element) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/ambi-02/leetcode/tree/master/0152-maximum-product-subarray) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/ambi-02/leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
