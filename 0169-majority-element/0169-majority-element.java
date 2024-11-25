@@ -1,26 +1,33 @@
 class Solution {
     public int majorityElement(int[] nums) {
-        int n = nums.length; // Get the length of the array
-        
-        // Iterate through each element in the array
-        for (int i = 0; i < n; i++) {
-            int count = 0; // Initialize count for the current element
-            
-            // Count occurrences of nums[i]
-            for (int j = 0; j < n; j++) {
-                if (nums[j] == nums[i]) {
-                    count++; // Increment count if we find a match
-                }
+        int candidate = nums[0]; // Initialize the candidate
+        int count = 1; // Initialize the count
+
+        // Step 1: Find a candidate for the majority element
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == candidate) {
+                count++; // Increment count if the same as candidate
+            } else {
+                count--; // Decrement count if different
             }
-            
-            // Check if the count is greater than n/2
-            if (count > n / 2) {
-                return nums[i]; // Return the majority element
+
+            // If count reaches 0, select the current number as the new candidate
+            if (count == 0) {
+                candidate = nums[i];
+                count = 1; // Reset count for the new candidate
             }
         }
-        
+
+        // Step 2: Validate the candidate
+        count = 0; // Reset count for validation
+        for (int num : nums) {
+            if (num == candidate) {
+                count++; // Count occurrences of the candidate
+            }
+        }
+
         // Since the problem guarantees that a majority element exists,
-        // we should never reach here.
-        return -1; // Placeholder return (not expected to be reached)
+        // we can return the candidate directly.
+        return candidate;
     }
 }
