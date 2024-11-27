@@ -1,30 +1,39 @@
 public class Solution {
     public int trap(int[] height) {
-        int n = height.length;
-        if (n == 0) return 0; // No elevation means no water trapped
+             int left = 1;
+        int right = height.length - 2;
 
-        // Create prefix and suffix max arrays
-        int[] prefix_max = new int[n];
-        int[] suffix_max = new int[n];
+        // lMax : Maximum in subarray arr[0..left-1]
+        // rMax : Maximum in subarray arr[right+1..n-1]
+        int lMax = height[left - 1];
+        int rMax = height[right + 1];
 
-        // Fill prefix_max array
-        prefix_max[0] = height[0];
-        for (int i = 1; i < n; i++) {
-            prefix_max[i] = Math.max(prefix_max[i - 1], height[i]);
+        int res = 0;
+        while (left <= right) {
+          
+            // If rMax is smaller, then we can decide the amount of water for arr[right]
+            if (rMax <= lMax) {
+              
+                // Add the water for arr[right]
+                res += Math.max(0, rMax -height[right]);
+
+                // Update right max
+                rMax = Math.max(rMax, height[right]);
+
+                // Update right pointer as we have decided the amount of water for this
+                right -= 1;
+            } else { 
+              
+                // Add the water for arr[left]
+                res += Math.max(0, lMax - height[left]);
+
+                // Update left max
+                lMax = Math.max(lMax, height[left]);
+
+                // Update left pointer as we have decided water for this
+                left += 1;
+            }
         }
-
-        // Fill suffix_max array
-        suffix_max[n - 1] = height[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            suffix_max[i] = Math.max(suffix_max[i + 1], height[i]);
-        }
-
-        // Calculate the total water trapped
-        int totalWater = 0;
-        for (int i = 0; i < n; i++) {
-            totalWater += Math.max(0, Math.min(prefix_max[i], suffix_max[i]) - height[i]);
-        }
-
-        return totalWater;
+        return res;
     }
 }
