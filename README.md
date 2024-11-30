@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/ambi-02/leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/ambi-02/leetcode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ambi-02/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/ambi-02/leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
 | [0136-single-number](https://github.com/ambi-02/leetcode/tree/master/0136-single-number) |
@@ -44,6 +45,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/ambi-02/leetcode/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 | [0792-binary-search](https://github.com/ambi-02/leetcode/tree/master/0792-binary-search) |
 ## Bit Manipulation
