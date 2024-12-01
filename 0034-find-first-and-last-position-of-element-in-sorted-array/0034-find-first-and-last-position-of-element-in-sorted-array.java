@@ -1,55 +1,53 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int n = nums.length;
-        int lb = lowerBound(nums, n, target);
-        
-        // Check if the target is not present
-        if (lb == n || nums[lb] != target) {
-            return new int[]{-1, -1}; // Corrected return statement
-        } else {
-            return new int[]{lb, upperBound(nums, n, target) - 1}; // Corrected return statement
-        }
+       int first= firstOccurance(nums,n,target);
+       if(first== -1){
+        return new int[]{-1,-1};
+       }
+       int last = lastOccurance(nums,n,target);
+
+       return new int[]{first,last};
     }
 
-    public static int lowerBound(int[] nums, int n, int target) { // Corrected parameter type
+    public static int firstOccurance(int[] nums, int n, int target) { // Corrected parameter type
         int low = 0;
         int high = n - 1;
-        int ans = n;
+        int first=-1;
 
         while (low <= high) {
             int mid = (low + high) / 2;
-            if (nums[mid] >= target) {
-                ans = mid;
+            if (nums[mid] == target) {
+                first = mid;
                 high = mid - 1;
-            } else {
+            } else if(nums[mid]<target){
                 low = mid + 1;
+            }else {
+                high=mid-1;
             }
+
         }
-        return ans;
+        return first;
     }
 
-    public static int upperBound(int[] nums, int n, int target) { // Corrected parameter type
+    public static int lastOccurance(int[] nums, int n, int target) { // Corrected parameter type
         int low = 0;
         int high = n - 1;
-        int ans = n;
+        int last = -1;
 
         while (low <= high) {
             int mid = (low + high) / 2;
-            if (nums[mid] > target) {
-                ans = mid;
-                high = mid - 1;
-            } else {
+         if (nums[mid] == target) {
+                last = mid;
                 low = mid + 1;
+            } else if(nums[mid]<target){
+                low = mid + 1;
+            }else {
+                high=mid-1;
             }
         }
-        return ans;
+        return last;
     }
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] nums = {5, 7, 7, 8, 8, 10};
-        int target = 8;
-        int[] result = solution.searchRange(nums, target);
-        System.out.println("[" + result[0] + ", " + result[1] + "]"); // Output: [3, 4]
-    }
+
 }
