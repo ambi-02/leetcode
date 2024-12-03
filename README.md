@@ -12,6 +12,7 @@
 | [0035-search-insert-position](https://github.com/ambi-02/leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/ambi-02/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0136-single-number](https://github.com/ambi-02/leetcode/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/ambi-02/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/ambi-02/leetcode/tree/master/0169-majority-element) |
@@ -50,6 +51,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/ambi-02/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ambi-02/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/ambi-02/leetcode/tree/master/0035-search-insert-position) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/ambi-02/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 | [0792-binary-search](https://github.com/ambi-02/leetcode/tree/master/0792-binary-search) |
 ## Bit Manipulation
