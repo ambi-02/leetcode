@@ -40,6 +40,7 @@
 | [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 | [0908-middle-of-the-linked-list](https://github.com/ambi-02/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/ambi-02/leetcode/tree/master/1019-squares-of-a-sorted-array) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ambi-02/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Greedy
 |  |
 | ------- |
@@ -128,6 +129,7 @@
 | [0237-delete-node-in-a-linked-list](https://github.com/ambi-02/leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/ambi-02/leetcode/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/ambi-02/leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [2216-delete-the-middle-node-of-a-linked-list](https://github.com/ambi-02/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
