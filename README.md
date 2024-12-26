@@ -59,6 +59,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ambi-02/leetcode/tree/master/0002-add-two-numbers) |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 | [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 ## Binary Search
@@ -126,6 +127,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ambi-02/leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ambi-02/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/ambi-02/leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/ambi-02/leetcode/tree/master/0142-linked-list-cycle-ii) |
@@ -140,6 +142,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ambi-02/leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/ambi-02/leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ambi-02/leetcode/tree/master/0234-palindrome-linked-list) |
 ## Merge Sort
