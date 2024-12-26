@@ -23,6 +23,7 @@
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/ambi-02/leetcode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ambi-02/leetcode/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/ambi-02/leetcode/tree/master/0494-target-sum) |
 | [0792-binary-search](https://github.com/ambi-02/leetcode/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/ambi-02/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 | [2047-find-a-peak-element-ii](https://github.com/ambi-02/leetcode/tree/master/2047-find-a-peak-element-ii) |
@@ -101,6 +102,7 @@
 | [0042-trapping-rain-water](https://github.com/ambi-02/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ambi-02/leetcode/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/ambi-02/leetcode/tree/master/0152-maximum-product-subarray) |
+| [0494-target-sum](https://github.com/ambi-02/leetcode/tree/master/0494-target-sum) |
 ## Counting
 |  |
 | ------- |
@@ -151,4 +153,8 @@
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/ambi-02/leetcode/tree/master/0148-sort-list) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/ambi-02/leetcode/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
