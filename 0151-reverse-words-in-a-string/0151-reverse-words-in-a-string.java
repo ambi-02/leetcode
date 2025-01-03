@@ -1,34 +1,42 @@
-import java.util.Stack;
-
 public class Solution {
     public String reverseWords(String s) {
-        // Step 1: Append a space to handle the last word
-        s += " ";
-        Stack<String> st = new Stack<String>(); // Step 2: Create a stack to hold words
-        String str = ""; // Step 3: Initialize an empty string to build words
+        // Trim the string to remove leading and trailing spaces
+        s = s.trim();
+        int left = 0;
+        int right = s.length() - 1;
 
-        // Step 4: Iterate through each character in the string
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == ' ') { // Step 5: Check for spaces
-                if (!str.isEmpty()) { // Only push non-empty words
-                    st.push(str); // Step 6: Push the current word onto the stack
-                    str = ""; // Step 7: Reset str for the next word
+        String temp = "";
+        String ans = "";
+
+        // Iterate the string and keep on adding to form a word
+        // If empty space is encountered then add the current word to the result
+        while (left <= right) {
+            char ch = s.charAt(left);
+            if (ch != ' ') {
+                temp += ch; // Build the current word
+            } else if (ch == ' ') {
+                if (!temp.isEmpty()) {
+                    if (!ans.isEmpty()) {
+                        ans = temp + " " + ans; // Add the current word to the result
+                    } else {
+                        ans = temp; // First word
+                    }
+                    temp = ""; // Reset temp for the next word
                 }
+            }
+            left++;
+        }
+
+        // If not empty string then add to the result (Last word is added)
+        if (!temp.isEmpty()) {
+            if (!ans.isEmpty()) {
+                ans = temp + " " + ans; // Add the last word
             } else {
-                str += s.charAt(i); // Step 8: Build the current word
+                ans = temp; // First word
             }
         }
 
-        StringBuilder ans = new StringBuilder(); // Step 9: Use StringBuilder for efficiency
-        // Step 10: Pop words from the stack to reverse their order
-        while (!st.isEmpty()) {
-            ans.append(st.pop()); // Step 11: Add the top word to the result
-            if (!st.isEmpty()) {
-                ans.append(" "); // Add a space if there are more words
-            }
-        }
-
-        return ans.toString(); // Step 12: Return the final reversed string
+        return ans; // Return the final reversed string
     }
 
    
