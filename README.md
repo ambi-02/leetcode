@@ -50,6 +50,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ambi-02/leetcode/tree/master/0011-container-with-most-water) |
+| [2032-largest-odd-number-in-string](https://github.com/ambi-02/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -66,6 +67,7 @@
 | [0002-add-two-numbers](https://github.com/ambi-02/leetcode/tree/master/0002-add-two-numbers) |
 | [0268-missing-number](https://github.com/ambi-02/leetcode/tree/master/0268-missing-number) |
 | [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
+| [2032-largest-odd-number-in-string](https://github.com/ambi-02/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Binary Search
 |  |
 | ------- |
@@ -116,6 +118,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/ambi-02/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 | [1078-remove-outermost-parentheses](https://github.com/ambi-02/leetcode/tree/master/1078-remove-outermost-parentheses) |
+| [2032-largest-odd-number-in-string](https://github.com/ambi-02/leetcode/tree/master/2032-largest-odd-number-in-string) |
 ## Stack
 |  |
 | ------- |
