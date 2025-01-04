@@ -115,6 +115,7 @@
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/ambi-02/leetcode/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/ambi-02/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0556-next-greater-element-iii](https://github.com/ambi-02/leetcode/tree/master/0556-next-greater-element-iii) |
 | [1078-remove-outermost-parentheses](https://github.com/ambi-02/leetcode/tree/master/1078-remove-outermost-parentheses) |
@@ -168,4 +169,8 @@
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/ambi-02/leetcode/tree/master/0494-target-sum) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/ambi-02/leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
